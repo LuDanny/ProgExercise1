@@ -45,8 +45,34 @@ public class checkPassword {
         return false;
     }
 
-    public boolean checkCase(String password){
-
+    public boolean checkCase(String password) {
+        if (checkLower(password) == true && checkUpper(password) == true){
+            return true;
+        }
         return false;
+    }
+
+    public boolean checkLower(String password){
+        char[] lower = {'q', 'w', 'e', 'r', 't','z', 'u','i','o','p','ü','a','s','d','f','g','h','j','k','l','ö','ä','y','x','c','v','b','n','m'};
+        for (int i = 0; i < password.length(); i++){
+            char low = password.charAt(i);
+            for (int j = 0; j < lower.length; j++){
+                if (lower[j] == low){
+                    return true;
+                }
+            }
+        }return false;
+    }
+
+    public boolean checkUpper(String password){
+        char[] upper = {'Q', 'W', 'E', 'R', 'T','Z', 'U','I','O','P','Ü','A','S','D','F','G','H','J','K','L','Ö','Ä','Y','X','C','V','B','N','M'};
+        for (int i = 0; i < password.length(); i++){
+            char up = password.charAt(i);
+            for (int j = 0; j < upper.length; j++){
+                if (upper[j] == up){
+                    return true;
+                }
+            }
+        }return false;
     }
 }

@@ -8,9 +8,9 @@ public class checkPasswordTest {
     @DisplayName("Password length")
     public void lengthTest() {
         checkPassword pw = new checkPassword();
-        assertTrue(pw.checkPw("ThisIsPerfect"));
+        assertTrue(pw.checkPw("Thispuuuuuurrrfect"));
         assertFalse(pw.checkPw("hi"));
-        assertTrue(pw.checkPw("AnotherPerfectOne"));
+        assertTrue(pw.checkPw("doingGoodIThink"));
     }
 
     @Test
@@ -29,6 +29,7 @@ public class checkPasswordTest {
         assertTrue(pw.checkCase("aoRight16o"));
         assertFalse(pw.checkCase("laksdlasfj34lijasd"));
         assertFalse(pw.checkCase("ASDASKFAJG21JS"));
+        assertFalse(pw.checkCase("aslldankfjskdfhsdfh"));
     }
 
     @Test
