@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b84866-0536-4da6-8c13-4a10cd1bd246" name="Default Changelist" comment="" />
+    <list default="true" id="32b84866-0536-4da6-8c13-4a10cd1bd246" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/ac/fhcampuswien/checkPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/ac/fhcampuswien/checkPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/ac/fhcampuswien/checkPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/ac/fhcampuswien/checkPasswordTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1tM027ikiaSGCE3bkMkomGaqWDP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +38,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -39,23 +49,7 @@
       <recent name="at.ac.fhcampuswien" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.checkPasswordTest.testPasswordLength">
-    <configuration name="AppTest.teest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProgEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
-      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.AppTest" />
-      <option name="METHOD_NAME" value="teest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.checkPasswordTest.testNum">
     <configuration name="AppTest.validTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProgEx1" />
       <extension name="coverage">
@@ -67,6 +61,22 @@
       <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
       <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.AppTest" />
       <option name="METHOD_NAME" value="validTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPasswordTest.testNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
+      <option name="METHOD_NAME" value="testNum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,12 +114,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="checkPasswordTest.validTestSpecial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
+      <option name="METHOD_NAME" value="validTestSpecial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.checkPasswordTest.testNum" />
+        <item itemvalue="JUnit.checkPasswordTest.validTestSpecial" />
         <item itemvalue="JUnit.checkPasswordTest.testPasswordLength" />
         <item itemvalue="JUnit.checkPasswordTest.validTest1" />
         <item itemvalue="JUnit.AppTest.validTest1" />
-        <item itemvalue="JUnit.AppTest.teest" />
       </list>
     </recent_temporary>
   </component>

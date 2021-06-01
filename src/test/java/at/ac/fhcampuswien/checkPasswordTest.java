@@ -9,29 +9,35 @@ public class checkPasswordTest {
     public void lengthTest() {
         checkPassword pw = new checkPassword();
         assertTrue(pw.checkPw("ThisIsPerfect"));
-        assertFalse(pw.checkPw("OhNo"));
+        assertFalse(pw.checkPw("hi"));
         assertTrue(pw.checkPw("AnotherPerfectOne"));
     }
 
     @Test
-    @DisplayName("Password has right Characters")
-    public void validTest5(){
+    @DisplayName("Password has numbers")
+    public void testNum(){
         checkPassword pw = new checkPassword();
-        assertTrue(pw.checkPw("aoRighto"));
+        assertTrue(pw.checkNum("asdo83hkjksf"));
+        assertFalse(pw.checkNum("ashdadkjcbsdgAS!"));
+    }
+
+
+    @Test
+    @DisplayName("Password has right Characters")
+    public void caseTest(){
+        checkPassword pw = new checkPassword();
+        assertTrue(pw.checkCase("aoRight16o"));
+        assertFalse(pw.checkCase("laksdlasfj34lijasd"));
+        assertFalse(pw.checkCase("ASDASKFAJG21JS"));
     }
 
     @Test
-    @DisplayName("Password has special char")
-    public void validTest6(){
+    @DisplayName("Check for special char")
+    public void validTestSpecial(){
      checkPassword pw = new checkPassword();
         assertTrue(pw.checkChar("asd(aU2has!der"));
-    }
-
-    @Test
-    @DisplayName("Has no special char")
-    public void validTest7(){
-     checkPassword pw = new checkPassword();
         assertFalse(pw.checkChar("Sasofo8heZas"));
+        assertFalse(pw.checkChar("!%§=%()(%!§%"));
     }
 
 
