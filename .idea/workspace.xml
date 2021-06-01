@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32b84866-0536-4da6-8c13-4a10cd1bd246" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tM027ikiaSGCE3bkMkomGaqWDP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="at.ac.fhcampuswien" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.checkPasswordTest.testPasswordLength">
+    <configuration name="AppTest.teest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.AppTest" />
+      <option name="METHOD_NAME" value="teest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.validTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.AppTest" />
+      <option name="METHOD_NAME" value="validTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPasswordTest.testPasswordLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
+      <option name="METHOD_NAME" value="testPasswordLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPasswordTest.validTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
+      <option name="METHOD_NAME" value="validTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.checkPasswordTest.testPasswordLength" />
+        <item itemvalue="JUnit.checkPasswordTest.validTest1" />
+        <item itemvalue="JUnit.AppTest.validTest1" />
+        <item itemvalue="JUnit.AppTest.teest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32b84866-0536-4da6-8c13-4a10cd1bd246" name="Default Changelist" comment="" />
+      <created>1622563445217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622563445217</updated>
+    </task>
+    <servers />
+  </component>
+</project>
