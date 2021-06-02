@@ -11,13 +11,13 @@ public class AppTest {
     @Test
     @DisplayName("Password valid length")
     public void validTest1(){
-        assertTrue(pw.checkPw("pass12"));
+        assertTrue(pw.checkPassword("pass12"));
     }
 
     @Test
     @DisplayName("Password has right Characters")
     public void validTest5(){
-        assertTrue(pw.checkPw("aoRighto"));
+        assertTrue(pw.checkPassword("aoRighto"));
     }
 
     @Test
@@ -35,19 +35,19 @@ public class AppTest {
     @Test
     @DisplayName("Password too short")
     public void validTest2(){
-        assertFalse(pw.checkPw("hi"));
+        assertFalse(pw.checkPassword("hi"));
     }
 
     @Test
     @DisplayName("Password too long")
     public void validTest3(){
-        assertFalse(pw.checkPw("oahfw398rziuhwifhwuejfhw98rzhicuh938fhwofh298fhweifu249gufwue"));
+        assertFalse(pw.checkPassword("oahfw398rziuhwifhwuejfhw98rzhicuh938fhwofh298fhweifu249gufwue"));
     }
 
     @Test
     @DisplayName("Test password value null")
     public void validTest4(){
-        assertThrows(IllegalArgumentException.class, () -> pw.checkPw(null));
+        assertThrows(IllegalArgumentException.class, () -> pw.checkPassword(null));
     }
 }
 

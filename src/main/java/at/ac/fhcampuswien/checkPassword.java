@@ -9,8 +9,9 @@ public class checkPassword {
     }
 
 
-    public boolean checkPw(String password){
-        if (checkLength(password) == true && checkChar(password) == true && checkCase(password) == true && checkNum(password) == true) return true;
+    public boolean checkPassword(String password){
+        if (checkLength(password) == true && checkChar(password) == true && checkCase(password) == true && checkNum(password) == true && checkNumStream(password)==true && checkRow(password)==true)
+            return true;
         return false;
     }
 
@@ -83,14 +84,14 @@ public class checkPassword {
 
     public boolean checkNumStream(String password){
         char[] numCheck = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '1'};
-        for (int i = 0; i < password.length(); i++){
+        for (int i = 0; i < password.length()-2; i++){
             if (Character.isDigit(password.charAt(i))){
                 for (int j = 0; j < numCheck.length; j++){
                     if (numCheck[j] == password.charAt(i)){
                         if (numCheck[j+1] == password.charAt(i+1)){
                             if (numCheck[j+2] == password.charAt(i+2)){
                                 return false;
-                            }else return true;
+                            }else break;
                         }else break;
                     }
                 }
@@ -99,4 +100,12 @@ public class checkPassword {
         return true;
     }
 
+    public boolean checkRow(String password){
+        for (int i = 0; i < password.length(); i++){
+            if (Character.isDigit((password.charAt(i)))){
+                if (password.charAt(i) == password.charAt(i+1) && password.charAt(i) == password.charAt(i+2) && password.charAt(i) == password.charAt(i+3)) return false;
+            }
+        }
+        return true;
+    }
 }
