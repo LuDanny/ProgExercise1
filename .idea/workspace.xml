@@ -48,7 +48,22 @@
       <recent name="at.ac.fhcampuswien" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.checkPasswordTest.caseTest">
+  <component name="RunManager" selected="JUnit.checkPasswordTest.streamTest">
+    <configuration name="checkPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="checkPasswordTest.caseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProgEx1" />
       <extension name="coverage">
@@ -60,6 +75,38 @@
       <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
       <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
       <option name="METHOD_NAME" value="caseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPasswordTest.finalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
+      <option name="METHOD_NAME" value="finalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPasswordTest.streamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProgEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
+      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
+      <option name="METHOD_NAME" value="streamTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,61 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkPasswordTest.testPasswordLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProgEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
-      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
-      <option name="METHOD_NAME" value="testPasswordLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="checkPasswordTest.validTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProgEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
-      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
-      <option name="METHOD_NAME" value="validTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="checkPasswordTest.validTestSpecial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProgEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ac.fhcampuswien.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ac.fhcampuswien" />
-      <option name="MAIN_CLASS_NAME" value="at.ac.fhcampuswien.checkPasswordTest" />
-      <option name="METHOD_NAME" value="validTestSpecial" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.checkPasswordTest.streamTest" />
+        <item itemvalue="JUnit.checkPasswordTest.finalTest" />
+        <item itemvalue="JUnit.checkPasswordTest" />
         <item itemvalue="JUnit.checkPasswordTest.caseTest" />
         <item itemvalue="JUnit.checkPasswordTest.testNum" />
-        <item itemvalue="JUnit.checkPasswordTest.validTestSpecial" />
-        <item itemvalue="JUnit.checkPasswordTest.testPasswordLength" />
-        <item itemvalue="JUnit.checkPasswordTest.validTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -155,11 +154,29 @@
       <option name="project" value="LOCAL" />
       <updated>1622586158296</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <created>1622587210201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622587210201</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
     <option name="LAST_COMMIT_MESSAGE" value="changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/at/ac/fhcampuswien/checkPassword.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

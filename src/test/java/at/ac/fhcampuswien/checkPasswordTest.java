@@ -3,14 +3,16 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.*;
 
+//https://github.com/LuDanny/ProgExercise1
+
 public class checkPasswordTest {
     @Test
     @DisplayName("Password length")
     public void lengthTest() {
         checkPassword pw = new checkPassword();
-        assertTrue(pw.checkPw("Thispuuuuuurrrfect"));
-        assertFalse(pw.checkPw("hi"));
-        assertTrue(pw.checkPw("doingGoodIThink"));
+        assertTrue(pw.checkLength("Thispuuuuuurrrfect"));
+        assertFalse(pw.checkLength("hi"));
+        assertTrue(pw.checkLength("doingGoodIThink"));
     }
 
     @Test
@@ -46,6 +48,28 @@ public class checkPasswordTest {
     @DisplayName("Test password value null")
     public void validTest4(){
         checkPassword pw = new checkPassword();
-        assertThrows(IllegalArgumentException.class, () -> pw.checkPw(null));
+        assertThrows(IllegalArgumentException.class, () -> pw.checkLength(null));
+    }
+
+    @Test
+    @DisplayName("Test overall pw in one")
+    public void finalTest(){
+        checkPassword pw = new checkPassword();
+        assertTrue(pw.checkPw("Abod30!jfishf/S"));
+        assertFalse(pw.checkPw("asidj3983hkjc!"));
+        assertFalse(pw.checkPw("AJSFZ38J<HUAICZS"));
+        assertFalse(pw.checkPw("!j6dA"));
+        assertFalse(pw.checkPw("fia!93HaOas<nA29"));
+        assertFalse(pw.checkPw(""));
+    }
+
+    @Test
+    @DisplayName("Stream test")
+    public void streamTest(){
+        checkPassword pw = new checkPassword();
+        assertTrue (pw.checkNumStream("Hus!b23jsu1h8)hs"));
+        assertFalse(pw.checkNumStream("H9asu123haki!k"));
+        assertFalse(pw.checkNumStream("901hasHuak!bkas"));
+        assertFalse(pw.checkNumStream("012u!bsUbaQjw2"));
     }
 }

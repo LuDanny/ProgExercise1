@@ -1,13 +1,18 @@
 package at.ac.fhcampuswien;
 
 public class checkPassword {
-    public boolean checkPw(String password){
+    public boolean checkLength(String password){
         if(password == null){
             throw new IllegalArgumentException("Password is null.");
         }
         return password.length() >= 8 && password.length() <= 25;
     }
 
+
+    public boolean checkPw(String password){
+        if (checkLength(password) == true && checkChar(password) == true && checkCase(password) == true && checkNum(password) == true) return true;
+        return false;
+    }
 
     public boolean checkChar(String password){
         char[] charCheck = {'(', ')', '#', '$', '!', '?', '%', '/', '@'};
@@ -75,4 +80,23 @@ public class checkPassword {
             }
         }return false;
     }
+
+    public boolean checkNumStream(String password){
+        char[] numCheck = {'0','1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '1'};
+        for (int i = 0; i < password.length(); i++){
+            if (Character.isDigit(password.charAt(i))){
+                for (int j = 0; j < numCheck.length; j++){
+                    if (numCheck[j] == password.charAt(i)){
+                        if (numCheck[j+1] == password.charAt(i+1)){
+                            if (numCheck[j+2] == password.charAt(i+2)){
+                                return false;
+                            }else return true;
+                        }else break;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
 }
